@@ -1,0 +1,11 @@
+DELETE http://localhost:3000/api/persons/2
+
+###
+
+POST http://localhost:3000/api/persons
+Content-Type: application/json
+
+{
+  "name": "Erkki Erikoinen",
+  "number": "050 7777777"
+}
